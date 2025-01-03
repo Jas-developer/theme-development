@@ -11,7 +11,7 @@
 
 ?>
 
-	<footer id="colophon" class="site-footer">
+	<footer id="colophon" class="site-footer" style="background-color:#f9f9f9;">
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'geniuscourse' ) ); ?>">
 				<?php
@@ -25,7 +25,7 @@
 				printf( esc_html__( 'Theme: %1$s by %2$s.', 'geniuscourse' ), 'geniuscourse', '<a href="http://underscores.me/">Underscores.me</a>' );
 				?>
 		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
+	</footer>#colophon
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
